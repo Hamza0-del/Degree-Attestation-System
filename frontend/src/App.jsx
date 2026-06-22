@@ -18,7 +18,9 @@ import {
   Wallet
 } from 'lucide-react';
 
-const CONTRACT_ADDRESS = "0xCf7Ed3AccA5a467e9e704C703E8D87F634fB0Fc9";
+// ✅ Auto-updated by deploy.js — manually change karne ki zaroorat nahi
+import contractConfig from './contract-config.json';
+const CONTRACT_ADDRESS = contractConfig.contractAddress;
 const HARDHAT_RPC_URL = "http://127.0.0.1:8545";
 
 // Default Hardhat Accounts for RBAC Simulation
