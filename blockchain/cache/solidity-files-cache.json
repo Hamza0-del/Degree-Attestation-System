@@ -1,0 +1,41 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "C:\\Users\\Hp\\.gemini\\antigravity\\scratch\\blockchain-degree-attestation-system\\blockchain\\contracts\\DegreeSystem.sol": {
+      "lastModificationDate": 1782146719045,
+      "contentHash": "ca642b1a552f56d3e058e1217c20ba86",
+      "sourceName": "contracts/DegreeSystem.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "DegreeSystem"
+      ]
+    }
+  }
+}
